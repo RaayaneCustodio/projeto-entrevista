@@ -1,15 +1,37 @@
 :root {
---cor-fundo : #0C0C0C;
---cor-cartao: #481E14;
---cor-destaque: #9B3922;
---cor-laranja : #F2613F;
---cor-texto: #f0f0f0;
+    --cor-fundo-pagina: #FFECC0;
+    --cor-fundo-cartao: #FFC29B;
+    --cor-texto-principal: #B95E82;
+    --cor-primaria: #B95E82;
+    --cor-secundaria: #F39F9F;
+    --cor-texto-claro: #FFFFFF;
+    --cor-texto-escuro: #000;
 }
 
-.recado{
-    background-color:  var(--cor-cartao);
+main.container {
+    overflow: hidden;
+}
+
+.recado {
+    background-color: var(--cor-fundo-cartao);
     padding: 1.25rem;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
-    color: var(--cor-destaque);
+    color: var(--cor-texto-principal);
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.recado:hover {
+    box-shadow: 0.5rem 1.25rem;
+    transform: scale(1.03);
+}
+
+.recado h3 {
+    margin-bottom: 0.25rem;
+}
+
+.recado p {
+    margin-top: 0;
+    opacity: 0.8;
 }
