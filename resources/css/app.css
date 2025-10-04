@@ -1,0 +1,15 @@
+:root {
+--cor-fundo : #0C0C0C;
+--cor-cartao: #481E14;
+--cor-destaque: #9B3922;
+--cor-laranja : #F2613F;
+--cor-texto: #f0f0f0;
+}
+
+.recado{
+    background-color:  var(--cor-cartao);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--cor-destaque);
+}
