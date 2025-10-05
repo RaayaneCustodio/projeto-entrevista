@@ -33,10 +33,12 @@ h1 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-criar:hover {
     background-color: var(--cor-secundaria);
+    font-family: 'Poppins', sans-serif;
 }
 
 main.secao-principal {
@@ -52,6 +54,7 @@ main.secao-principal {
 }
 
 .recado {
+    font-family: 'Poppins', sans-serif;
     background-color: var(--cor-fundo-cartao);
     padding: 1.25rem;
     border-radius: 0.5rem;
@@ -79,6 +82,7 @@ main.secao-principal {
 }
 
 .form {
+    font-family: 'Poppins', sans-serif;
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
@@ -130,4 +134,5 @@ button {
 .form ::placeholder {
     color: var(--cor-texto-principal);
     opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
 }
