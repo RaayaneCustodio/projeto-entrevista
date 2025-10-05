@@ -7,9 +7,8 @@
 @foreach ($contatos as $contato)
 <div class="recado">
     
-        <h3>{{ $contato->nome }}</h3>
-        <p>{{ $contato->mensagem }}</p>
-
+        <h3> Mensagem escrita por  : {{ $contato->nome }}</h3>
+        <p>Mensagem :{{ $contato->mensagem }}</p>
 </div>
 @endforeach  {{--  --}}
 @endsection

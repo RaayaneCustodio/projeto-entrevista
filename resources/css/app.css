@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 :root {
     --cor-fundo-cartao: #FFECC0;
     --cor-fundo-pagina: #FFC29B;
@@ -19,11 +20,11 @@ h1 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Poppins', sans-serif;
- }
+}
 
- .btn-criar {
+.btn-criar {
     text-decoration: none;
-    background-color: var(--cor-primaria); 
+    background-color: var(--cor-primaria);
     color: var(--cor-texto-claro);
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
@@ -34,7 +35,7 @@ h1 {
     margin-right: auto;
 }
 
-.btn-criar:hover{
+.btn-criar:hover {
     background-color: var(--cor-secundaria);
 }
 
@@ -58,15 +59,18 @@ main.secao-principal {
     color: var(--cor-texto-principal);
     box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    text-align: center;
 }
 
 .recado:hover {
     box-shadow: 0 0.5rem 1.25rem #B95E8233;
     transform: scale(1.03);
+    text-align: center;
 }
 
 .recado h3 {
     margin-bottom: 0.25rem;
+    text-align: center;
 }
 
 .recado p {
@@ -74,3 +78,56 @@ main.secao-principal {
     opacity: 0.8;
 }
 
+.form {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--cor-fundo-cartao);
+    padding: 3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--cor-texto-principal);
+    box-shadow: 0 0.25rem 0.9375rem var();
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.form input,
+.form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 0.5rem;
+    background-color: var(--cor-secundaria-);
+    color: var(--cor-texto-principal);
+    margin-bottom: 1.5rem;
+}
+
+.form label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.form button {
+    width: 100%;
+    padding: 1rem;
+}
+
+button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form ::placeholder {
+    color: var(--cor-texto-principal);
+    opacity: 0.7;
+}
