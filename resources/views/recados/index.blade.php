@@ -2,7 +2,7 @@
 
 @section('conteudo')
 <h1> Mural de Recados</h1>
-<a href="/recados/criar"> Deixe seu recado</a>
+<a href="/recados/criar" class="btn-criar">Deixe seu recado</a>
 
 @foreach ($contatos as $contato)
 <div class="recado">

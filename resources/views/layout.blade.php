@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <header>
+    <header></header>
 
-    </header>
-    <main class="container">
-        @yield('conteudo')
+    <main class="secao-principal">
+        <div class="container">
+             @yield('conteudo')
+        </div>
     </main>
-    <footer>
 
-    </footer>
+    <footer></footer>
 </body>
 
 </html>
